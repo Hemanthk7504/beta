@@ -15,3 +15,8 @@ def home():
 @app.post("search_grants")
 def grants():
     return "search"
+
+
+@app.delete("delete")
+def delete():
+    return ""
