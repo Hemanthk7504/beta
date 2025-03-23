@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return "home"
+    return "45"
 
 
 @app.post("search_grants")
